@@ -1,0 +1,19 @@
+{
+  "name": "slack-attendance-bot",
+  "version": "1.0.0",
+  "description": "A bot to track attendance from Slack to Google Sheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.0",
+    "google-spreadsheet": "^3.3.0",
+    "moment": "^2.29.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
